@@ -37,7 +37,7 @@ magick -debug command file.pdf -define jpeg:size=48x48 -background #FFFFFF -flat
 **Description**: *A Git client for simultaneous branches on top of your existing workflow.*
 **Proejct**: https://gitbutler.com/
 
-##  `Gittyup` - Graphical Git client designed by github creator
+##  `Gittyup` - Graphical Git client 
 
 **Description**: *Gittyup is a graphical Git client designed to help you understand and manage your source code history. The latest stable release is available either as pre-built flatpak for Linux, 32 / 64 binary for Windows, macOS, or can be built from source by following the directions below.*
 
