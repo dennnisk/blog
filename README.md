@@ -2,7 +2,7 @@
 
 # Command Line Programs and Utilities
 
-## Direct Print PDF - `SumatraPDF`
+## `SumatraPDF` - Direct Print PDF
 
 Use [SumatraPDF](https://github.com/sumatrapdfreader/sumatrapdf) to direct print PDF Files
 
@@ -10,7 +10,7 @@ Use [SumatraPDF](https://github.com/sumatrapdfreader/sumatrapdf) to direct print
 C:/path/SumatraPDF-3.5.2-64.exe -print-to "<print_name>" <path/file.pdf>
 ```
 
-## Convert imagens to many formats - `magick`
+## `magick` - Convert imagens to many formats
 
 Description: *ImageMagick® is a free, open-source software suite, used for editing and manipulating digital images. It can be used to create, edit, compose, or convert bitmap images, and supports a wide range of file formats, including JPEG, PNG, GIF, TIFF, and PDF.*
 Project: http://www.imagemagick.org/
