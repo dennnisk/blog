@@ -40,6 +40,16 @@ magick -debug command file.pdf -define jpeg:size=48x48 -background #FFFFFF -flat
 **How to use/Install**: https://github.com/nextcloud/all-in-one#how-to-use-this
 
 
+## `scoop` - A command-line installer for Windows
+
+**Description**: *Scoop installs programs you know and love, from the command line with a minimal amount of friction. It: Eliminates permission popup windows; Hides GUI wizard-style installers; Prevents PATH pollution from installing lots of programs; Avoids unexpected side-effects from installing and uninstalling programs; Finds and installs dependencies automatically; Performs all the extra setup steps itself to get a working program;*
+
+**Project**: https://scoop.sh/
+
+**How to use/Install**: https://scoop.sh/ (on the site has more information)
+
+
+
 # GIT
 
 ## `gitbutler` - Git client created by github creator
