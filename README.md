@@ -46,7 +46,10 @@ magick -debug command file.pdf -define jpeg:size=48x48 -background #FFFFFF -flat
 ## `gitbutler` - Git client created by github creator
 
 **Description**: *A Git client for simultaneous branches on top of your existing workflow.*
-**Proejct**: https://gitbutler.com/
+
+**Project**: https://gitbutler.com/
+
+![gitbutler image](https://blog.gitbutler.com/content/images/size/w1600/2024/04/CleanShot-2024-04-10-at-10.48.17@2x.png?raw=true)
 
 ##  `Gittyup` - Graphical Git client 
 
@@ -54,7 +57,7 @@ magick -debug command file.pdf -define jpeg:size=48x48 -background #FFFFFF -flat
 
 **Project**: https://github.com/Murmele/Gittyup
 
-![alt text](https://raw.githubusercontent.com/Murmele/Gittyup/master/rsrc/screenshots/main_dark_orig.png?raw=true)
+![gittyup image](https://raw.githubusercontent.com/Murmele/Gittyup/master/rsrc/screenshots/main_dark_orig.png?raw=true)
 
 
 # Host/Do yourself
