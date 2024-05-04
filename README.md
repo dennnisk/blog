@@ -70,3 +70,18 @@ magick -debug command file.pdf -define jpeg:size=48x48 -background #FFFFFF -flat
 **Project**: https://nextcloud.com/  - https://github.com/nextcloud
 
 **How to use/Install**: https://github.com/nextcloud/all-in-one#how-to-use-this
+
+## `Portainer.io` - Portainer.io allows you to manage Docker with graphical interface accessed from any browser.
+
+**Description**: *Portainer.io is an open source web application that allows you to manage Docker containers and images through a graphical interface accessed from any browser.*
+
+**Project**: https://docs.portainer.io/
+
+**How to use/Install**: https://docs.portainer.io/start/install-ce/server/docker/linux
+```bash
+docker run -d -p 8000:8000 -p 9443:9443 --name portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:latest
+```
+
+
+
+https://docs.portainer.io/start/install-ce/server/docker/linux
