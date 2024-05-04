@@ -62,8 +62,9 @@ magick -debug command file.pdf -define jpeg:size=48x48 -background #FFFFFF -flat
 
 # Host/Do yourself
 
+## Softwares
 
-## `NextCloud` - Nextcloud gives you access to all your files wherever you are. Hosted by you.
+### `NextCloud` - Nextcloud gives you access to all your files wherever you are. Hosted by you.
 
 **Description**: *Nextcloud gives you access to all your files wherever you are. Who owns your photos and documents? Right, it should be you. With self-hosted cloud storage, your data is where you want it to be: at home or in the cloud you trust. Nextcloud runs on that server, giving you easy access to your files from desktop and mobile devices, as well as boundless syncing and sharing across locations: FTP drive at school, a Dropbox, or a NAS you have at home. Nextcloud is free and open source*
 
@@ -71,7 +72,9 @@ magick -debug command file.pdf -define jpeg:size=48x48 -background #FFFFFF -flat
 
 **How to use/Install**: https://github.com/nextcloud/all-in-one#how-to-use-this
 
-## `Portainer.io` - Portainer.io allows you to manage Docker with graphical interface accessed from any browser.
+
+
+### `Portainer.io` - Portainer.io allows you to manage Docker with graphical interface accessed from any browser.
 
 **Description**: *Portainer.io is an open source web application that allows you to manage Docker containers and images through a graphical interface accessed from any browser.*
 
@@ -83,5 +86,25 @@ docker run -d -p 8000:8000 -p 9443:9443 --name portainer --restart=always -v /va
 ```
 
 
+## Services
 
-https://docs.portainer.io/start/install-ce/server/docker/linux
+### `Duck DNS` - Free dynamic DNS hosted on AWS
+
+**Description**: *Duck DNS a Free dynamic DNS hosted on AWS*
+
+**Project**: https://www.duckdns.org/
+
+**How to use/Install**: https://www.duckdns.org/domains
+
+
+
+### `ddclient` - Updates dynamic DNS entries
+
+**Description**: *ddclient updates dynamic DNS entries for accounts on a wide range of dynamic DNS services.*
+
+**Project**: https://ddclient.net/
+
+**How to use/Install**: https://ddclient.net/
+
+
+
