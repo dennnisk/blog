@@ -41,6 +41,16 @@ magick -debug command file.pdf -define jpeg:size=48x48 -background #FFFFFF -flat
 
 
 
+## `makeself` - Make self-extractable archives on Unix
+
+**Description**: *makeself.sh is a small shell script that generates a self-extractable compressed tar archive from a directory. This is pretty similar to archives generated with WinZip Self-Extractor in the Windows world.*
+
+**Project**: https://github.com/megastep/makeself
+
+**How to use/Install**: https://github.com/megastep/makeself?tab=readme-ov-file#usage
+
+
+
 # GIT
 
 ## `gitbutler` - Git client created by github creator
