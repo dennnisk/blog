@@ -95,6 +95,25 @@ magick -debug command file.pdf -define jpeg:size=48x48 -background #FFFFFF -flat
 docker run -d -p 8000:8000 -p 9443:9443 --name portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:latest
 ```
 
+### `youtube-dl` - youtube-dl - Download videos from www.youtube.com, music.youtube.com or other video platforms, and you can convert to mp3
+
+**Description**: *download videos from youtube.com or other video platforms. Include playlist from music.youtube.com and convert it to mp3*
+
+**Project**: https://github.com/ytdl-org/youtube-dl
+
+**How to use/Install**: https://github.com/ytdl-org/youtube-dl
+
+```bash
+.\youtube-dl.exe -o "misturadas\%(artist)s-%(title)s.%(ext)s" https://music.youtube.com/playlist?list=XLyyWZ....zrWluXY -x --audio-format mp3 --audio-quality 0 --cookies .\music.youtube.com_cookies.txt
+```
+#### How to Install
+ - Download last .exe from: https://github.com/ytdl-org/ytdl-nightly/releases/ 
+ - Download last FFmpeg (to convert video to mp3, etc) from: https://github.com/BtbN/FFmpeg-Builds/releases
+   - Unzip at the same directory with `youtube-dl.exe`
+ - Install software to extract the Cookies from your navigator: https://chromewebstore.google.com/detail/get-cookiestxt-locally/cclelndahbckbenkjhflpdbgdldlbecc?pli=1
+   - Use to access the the login of your youtube premium account.
+ - Access the directory and you can download and convert, like the example 
+
 
 ## Services
 
