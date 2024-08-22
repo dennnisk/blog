@@ -104,7 +104,7 @@ docker run -d -p 8000:8000 -p 9443:9443 --name portainer --restart=always -v /va
 **How to use/Install**: https://github.com/ytdl-org/youtube-dl
 
 ```bash
-.\youtube-dl.exe -o "misturadas\%(artist)s-%(title)s.%(ext)s" https://music.youtube.com/playlist?list=PLyyWZJDG4sRni06zoBvxhUwWXEzrWluIY -x --audio-format mp3 --audio-quality 0 --cookies .\music.youtube.com_cookies.txt --sleep-interval 3 --max-sleep-interval 30 -i -w --playlist-random
+.\youtube-dl.exe -o "folder\%(artist)s-%(title)s.%(ext)s" https://music.youtube.com/playlist?list=XXyy(...)luIY -x --audio-format mp3 --audio-quality 0 --cookies .\music.youtube.com_cookies.txt --sleep-interval 3 --max-sleep-interval 30 -i -w --playlist-random
 ```
 #### How to Install
  - Download last .exe from: https://github.com/ytdl-org/ytdl-nightly/releases/ 
