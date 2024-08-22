@@ -115,6 +115,19 @@ docker run -d -p 8000:8000 -p 9443:9443 --name portainer --restart=always -v /va
  - Access the directory and you can download and convert, like the example 
 
 
+### `MP3Gain` - MP3Gain analyzes and adjusts mp3 files so that they have the same volume.
+
+**Description**: *MP3Gain does not just do peak normalization, as many normalizers do. Instead, it does some statistical analysis to determine how loud the file actually sounds to the human ear.
+Also, the changes MP3Gain makes are completely lossless. There is no quality lost in the change because the program adjusts the mp3 file directly, without decoding and re-encoding.*
+
+**Project**: https://mp3gain.sourceforge.net/
+
+**How to use/Install**: https://mp3gain.sourceforge.net/
+
+```bash
+If you get the error: "Component ‘MSCOMCTL.OCX’ or one if its dependencies not correctly registered: a file is missing or invalid.", try this: https://www.urtech.ca/2017/11/solved-mscomctl-ocx-download-register-64-bit-windows/
+```
+
 ## Services
 
 ### `Duck DNS` - Free dynamic DNS hosted on AWS
