@@ -525,3 +525,180 @@ O gerenciamento de arquivos e pastas no Linux usando o terminal proporciona flex
 
 
 
+### Comandos úteis do Linux
+
+O Linux oferece uma vasta gama de comandos que permitem aos usuários realizar diversas tarefas, desde operações básicas de sistema até o gerenciamento avançado de arquivos, processos e redes. Esses comandos são executados diretamente no **Terminal** e fornecem uma maneira poderosa de controlar e administrar o sistema. Abaixo estão alguns dos comandos mais úteis e comuns no dia a dia de um usuário Linux.
+
+#### 1. **Comando `man` (Manual)**
+O comando `man` exibe o manual de um comando, oferecendo informações detalhadas sobre como ele funciona, suas opções e argumentos disponíveis.
+
+##### Sintaxe:
+```
+man [comando]
+```
+
+##### Exemplo:
+- Para visualizar o manual do comando `ls`:
+  ```
+  man ls
+  ```
+
+#### 2. **Comando `cat`, `more`, e `less` (Visualização de Arquivos)**
+Esses comandos são usados para visualizar o conteúdo de arquivos de texto diretamente no terminal.
+
+- **`cat`**: Exibe o conteúdo de um arquivo.
+- **`more`**: Exibe o conteúdo de um arquivo página por página.
+- **`less`**: Semelhante ao `more`, mas com mais funcionalidades, como rolagem para cima e para baixo.
+
+##### Sintaxe:
+```
+cat [arquivo]
+more [arquivo]
+less [arquivo]
+```
+
+##### Exemplo:
+- Para visualizar o conteúdo do arquivo `texto.txt`:
+  ```
+  cat texto.txt
+  ```
+
+#### 3. **Comando `grep` (Busca de Padrões)**
+O comando `grep` é usado para procurar palavras ou padrões em arquivos ou na saída de outros comandos. Ele é extremamente útil para localizar informações em grandes quantidades de texto.
+
+##### Sintaxe:
+```
+grep [opções] padrão [arquivo]
+```
+
+##### Exemplo:
+- Para buscar a palavra "erro" em um arquivo de log:
+  ```
+  grep "erro" /var/log/syslog
+  ```
+
+- Para buscar a palavra "ERROR" em um arquivo de log junto com o journalctl:
+  ```
+  journalctl -f -n besser-core | grep erro
+  ```  
+
+#### 4. **Comando `ps` e `top` (Gerenciamento de Processos)**
+Estes comandos são usados para monitorar e gerenciar processos em execução no sistema.
+
+- **`ps`**: Exibe uma lista de processos em execução.
+- **`top`**: Mostra uma visão dinâmica em tempo real dos processos em execução, uso de CPU, memória e outras informações do sistema.
+- **`htop`**: Ferramenta dos processos mais avançada
+- **`btop`**: Umas das ultimas versões, com muito mais recursos visuais.
+
+##### Sintaxe:
+```
+ps [opções]
+top
+```
+
+##### Exemplo:
+- Para exibir todos os processos em execução no sistema:
+  ```
+  ps aux
+  ```
+
+#### 5. **Comando `kill` (Encerrar Processos)**
+O comando `kill` é usado para **encerrar processos** com base no número de identificação do processo (PID).
+
+##### Sintaxe:
+```
+kill [PID]
+```
+
+##### Exemplo:
+- Para encerrar um processo com o PID 1234:
+  ```
+  kill 1234
+  ```
+
+#### 6. **Comando `df` (DiskFree) e `du` (DiskUtils) - Informações de Disco**
+Esses comandos ajudam a **monitorar o uso do disco** no sistema.
+
+- **`df`**: Exibe informações sobre o espaço disponível em todas as partições do sistema.
+- **`du`**: Exibe o uso de espaço de arquivos e diretórios.
+
+##### Sintaxe:
+```
+df [opções]
+du [opções] [arquivo ou diretório]
+```
+
+##### Exemplo:
+- Para ver o espaço disponível em todas as partições:
+  ```
+  df -h
+  ```
+
+#### 7. **Comando `apt` (Gerenciamento de Pacotes)**
+No Ubuntu (e outras distribuições baseadas em Debian), o `apt` é o principal comando para **gerenciar pacotes de software**. Com ele, você pode instalar, remover e atualizar pacotes de software.
+
+##### Sintaxe:
+```
+apt [opção] [pacote]
+```
+
+##### Exemplos:
+- Para atualizar a lista de pacotes disponíveis:
+  ```
+  sudo apt update
+  ```
+- Para instalar um programa, como o `curl`:
+  ```
+  sudo apt install curl
+  ```
+
+#### 8. **Comando `ssh` (Acesso Remoto)**
+O `ssh` (Secure Shell) permite acessar e controlar outro computador remotamente através de uma conexão segura.
+
+##### Sintaxe:
+```
+ssh [usuário]@[endereço_IP]
+```
+
+##### Exemplo:
+- Para acessar remotamente um servidor com IP `192.168.1.10`:
+  ```
+  ssh usuario@192.168.1.10
+  ```
+
+#### 9. **Comando `tar` (Compactação e Descompactação de Arquivos)**
+O `tar` é um comando utilizado para **arquivar** (compactar) e **desarquivar** arquivos e diretórios. Ele é muito comum para criar backups e compartilhar grandes quantidades de arquivos.
+
+##### Sintaxe:
+```
+tar [opções] [arquivo]
+```
+
+##### Exemplos:
+- Para compactar um diretório chamado `projetos` em um arquivo `.tar.gz`:
+  ```
+  tar -czvf projetos.tar.gz projetos/
+  ```
+
+- Para descompactar um arquivo `.tar.gz`:
+  ```
+  tar -xzvf projetos.tar.gz
+  ```
+
+#### 10. **Comando `history` (Histórico de Comandos)**
+O comando `history` exibe uma lista de comandos executados anteriormente no terminal.
+
+##### Sintaxe:
+```
+history
+```
+
+##### Exemplo:
+- Para visualizar os últimos 10 comandos executados:
+  ```
+  history | tail -n 10
+  ```
+
+##### 11. Conclusão
+
+Estes são alguns dos comandos mais úteis no Linux, essenciais para o gerenciamento diário do sistema e automação de tarefas. Cada comando oferece uma série de opções que podem ser ajustadas conforme necessário, tornando-os altamente flexíveis e poderosos. Para se tornar um usuário eficiente no Linux, dominar esses comandos é um passo fundamental.
