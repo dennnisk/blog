@@ -4,8 +4,6 @@ Curso básico para entendimento do Linux e Manipulação de arquivos, pastas e d
 
 Segue links dos módulos:
 
-[teste](Módulo%201-Introdução%20ao%20Linux%20e%20ao%20Ubuntu.md)
-
 - [Módulo 1:Introdução ao Linux e ao Ubuntu](Módulo%201-Introdução%20ao%20Linux%20e%20ao%20Ubuntu.md)
 - [Módulo 2:Conceitos Básicos e Linha de Comando](Módulo%202-Conceitos%20Básicos%20e%20Linha%20de%20Comando.md)
 - [Módulo 3:Gerenciamento de Pacotes e Software](Módulo%203-Gerenciamento%20de%20Pacotes%20e%20Software.md)
