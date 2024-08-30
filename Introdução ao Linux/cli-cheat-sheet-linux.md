@@ -30,6 +30,7 @@
 - **`htop`** : Um visualizador de processo interativo (precisa de instalação).
 - **`btop`** : Um visualizador de processo interativo, mais recente e de melhor visualização (precisa de instalação: `snap install btop` ).
 - **`df -h`** : Mostra o uso do disco em um formato legível por humanos.
+- **`du -h --max-depth=1`**: Mostra o tamanho ocupado pelos diretório, com apenas 1 nível de detalhamento, legível para humanos
 - **`free -m`** : Exibe memória livre e usada em MB.
 - **`kill <id do processo>`** : Encerra um processo.
 
