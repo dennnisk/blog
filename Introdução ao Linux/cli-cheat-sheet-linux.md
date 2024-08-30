@@ -70,6 +70,7 @@
 - **`mv <origem> <destino>`** : Move arquivos ou os renomeia.
 - **`rm <nome do arquivo>`** : Exclui um arquivo.
 
+
 ### Navegação de diretório
 - **`pwd`** : Exibe o caminho do diretório atual.
 - **`cd <diretório>`** : Altera o diretório atual.
@@ -79,6 +80,15 @@
 - **`chmod [who][+/-][permissions] <file>`** : Altera as permissões de arquivo.
 - **`chmod u+x <file>`** : Torna um arquivo executável pelo seu dono.
 - **`chown [usuário]:[grupo] <file>`** : Altera o dono e o grupo do arquivo.
+
+#### File Permissions
+- **`chmod <octal> <file>`** – altere as permissões do arquivo para <octal>, que pode ser encontrado separadamente para usuário, grupo e mundo adicionando:
+  - `4` – read (`r`)
+  - `2` – write (`w`)
+  - `1` – execute (`x`)
+- Examples:
+  - `chmod 777` – read, write, execute for all
+  - `chmod 755` – `rwx` for owner, `rx` for group and world
 
 ### Pesquisando e encontrando
 - **`find [diretório] -name <padrão_de_pesquisa>`** : Encontra arquivos e diretórios.
