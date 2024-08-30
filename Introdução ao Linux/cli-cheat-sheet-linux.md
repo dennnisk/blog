@@ -190,3 +190,16 @@
 - **`ssh <usuário@host>`** : Conecta-se a um host remoto via SSH.
 - **`scp <origem> <usuário@host>:<destino>`** : Copia arquivos com segurança entre hosts
 
+### Comandos extras
+- **`ping <host>`**: ping host and output results
+- **`whois <domain>`**: get whois information for domain
+- **`dig <domain>`**: get DNS information for domain
+- **`dig -x <host>`**: reverse lookup host
+- **`wget <file>`**: download file
+- **`wget -c <file>`**: continue a stopped download
+
+
+#### References
+Ubuntu CLI and Personal knowledge
+
+
