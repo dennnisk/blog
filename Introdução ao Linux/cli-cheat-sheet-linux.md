@@ -1,4 +1,4 @@
-# CLI cheat sheet (Referências rápidas de Linha de Comando)
+# CLI Cheat Sheet (Referências rápidas de Linha de Comando)
 
 ### Atalhos de teclado do Linux
 
