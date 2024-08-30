@@ -1,5 +1,21 @@
 # CLI cheat sheet (Referências rápidas de Linha de Comando)
 
+# Atalhos de teclado do Linux
+
+- **`Ctrl+Alt+T`**: Abrir terminal a partir da interface gráfica do Ubuntu.
+- **`Ctrl + C`**: é usado para matar um processo com o sinal SIGINT , em outras palavras, é um kill educado.
+- **`Ctrl + Z`**: é usado para suspender um processo enviando a ele o sinal SIGTSTP , que é como um sinal de suspensão, que pode ser desfeito e o processo pode ser retomado novamente.
+- **`Ctrl+D`**: sai da sessão atual, semelhante a sair.
+- **`Ctrl+R`**: digite para abrir um comando recente
+- **`Ctrl+W`**: apaga uma palavra na linha atual
+- **`Ctrl+U`**: apaga a linha inteira
+
+# Comandos auxiliares
+
+- **`history | grep "command looking for"`**: Pesquisa na relação dos ultimos comandos do usuário corrente
+- **`!!`**: repete o último comando
+- **`exit`**: sai da sessão atual
+
 ---
 ## Sistema
 
