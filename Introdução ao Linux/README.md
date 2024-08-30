@@ -9,3 +9,4 @@ Segue links dos módulos:
 - [Módulo 3:Gerenciamento de Pacotes e Software](Módulo%203-Gerenciamento%20de%20Pacotes%20e%20Software.md)
 - [Módulo 4:Gerenciamento do Sistema](Módulo%204-Gerenciamento%20do%20Sistema.md)
 - [Módulo 5:Redes e Segurança](Módulo%205-Redes%20e%20Segurança.md)
+- [CLI cheat sheet (Referências rápidas de Linha de Comando)](cli-cheat-sheet-linux.md)
