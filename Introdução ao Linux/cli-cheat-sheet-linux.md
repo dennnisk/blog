@@ -20,7 +20,7 @@
 ## Sistema
 
 ### Informações do sistema
-- **`uname -a``** : Exibe todas as informações do sistema.
+- **`uname -a`** : Exibe todas as informações do sistema.
 - **`hostnamectl`** : Mostra o nome do host atual e detalhes relacionados.
 - **`lscpu`** : Lista informações de arquitetura da CPU.
 - **`timedatectl status`** : Mostra a hora do sistema.
