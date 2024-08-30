@@ -10,7 +10,7 @@ Abaixo estão os principais comandos do APT para realizar operações comuns no 
 ### 1. **Atualizando a Lista de Pacotes**
 Antes de instalar, atualizar ou remover pacotes, é importante garantir que a lista de pacotes disponível esteja atualizada. Isso é feito através do comando `apt update`, que sincroniza a lista local de pacotes com os repositórios remotos.
 
-##### Comando:
+#### Comando:
 ```
 sudo apt update
 ```
