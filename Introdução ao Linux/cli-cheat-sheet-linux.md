@@ -3,8 +3,8 @@
 # Atalhos de teclado do Linux
 
 - **`Ctrl+Alt+T`**: Abrir terminal a partir da interface gráfica do Ubuntu.
-- **`Ctrl + C`**: é usado para matar um processo com o sinal SIGINT , em outras palavras, é um kill educado.
-- **`Ctrl + Z`**: é usado para suspender um processo enviando a ele o sinal SIGTSTP , que é como um sinal de suspensão, que pode ser desfeito e o processo pode ser retomado novamente.
+- **`Ctrl+C`**: é usado para matar um processo com o sinal SIGINT , em outras palavras, é um kill educado.
+- **`Ctrl+Z`**: é usado para suspender um processo enviando a ele o sinal SIGTSTP , que é como um sinal de suspensão, que pode ser desfeito e o processo pode ser retomado novamente.
 - **`Ctrl+D`**: sai da sessão atual, semelhante a sair.
 - **`Ctrl+R`**: digite para abrir um comando recente
 - **`Ctrl+W`**: apaga uma palavra na linha atual
