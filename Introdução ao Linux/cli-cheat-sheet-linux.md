@@ -12,7 +12,7 @@
 
 ### Comandos auxiliares
 
-- **`history | grep "command looking for"` | tail -n 10**: Pesquisa na relação dos ultimos comandos do usuário corrente
+- **`history | grep "command looking for"  | tail -n 10`**: Pesquisa na relação dos ultimos comandos do usuário corrente
 - **`!!`**: repete o último comando
 - **`exit`**: sai da sessão atual
 
