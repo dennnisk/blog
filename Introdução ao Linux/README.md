@@ -1,4 +1,4 @@
-# Curso de introdução ao Linux, conceitos básicos para prestação de suporte
+# Curso de introdução ao Linux (Conceitos básicos)
 
 Curso básico para entendimento do Linux e Manipulação de arquivos, pastas e dados
 
