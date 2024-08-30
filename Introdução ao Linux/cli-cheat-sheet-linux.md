@@ -12,6 +12,7 @@
 ### Monitoramento e gerenciamento do sistema
 - **`top`** : Exibe processos do sistema em tempo real.
 - **`htop`** : Um visualizador de processo interativo (precisa de instalação).
+- **`btop`** : Um visualizador de processo interativo, mais recente e de melhor visualização (precisa de instalação: `snap install btop` ).
 - **`df -h`** : Mostra o uso do disco em um formato legível por humanos.
 - **`free -m`** : Exibe memória livre e usada em MB.
 - **`kill <id do processo>`** : Encerra um processo.
