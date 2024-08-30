@@ -1,13 +1,13 @@
 # Módulo 2: Conceitos Básicos e Linha de Comando
 
-### O que é o Terminal e sua importância
+## O que é o Terminal e sua importância
 
-#### O que é o Terminal?
+### O que é o Terminal?
 O **Terminal** é uma interface de linha de comando (CLI) que permite a interação direta do usuário com o sistema operacional Linux por meio de comandos de texto. Diferente das interfaces gráficas, onde você usa janelas, menus e ícones, no Terminal, você digita comandos para executar tarefas e manipular o sistema.
 
 No Ubuntu (e outras distribuições Linux), o terminal é uma ferramenta poderosa que permite acessar e controlar o sistema de maneira eficiente e precisa. A shell mais comumente utilizada no Linux é o **Bash** (Bourne Again Shell), mas existem outras, como **Zsh** e **Fish**, que também podem ser usadas.
 
-#### Importância do Terminal no Linux
+### Importância do Terminal no Linux
 
 1. **Controle Completo do Sistema**
    - O Terminal oferece controle total sobre o sistema, permitindo a realização de tarefas administrativas, como gerenciamento de arquivos, controle de processos, manipulação de pacotes, configuração de redes e execução de scripts. Muitas vezes, certas funcionalidades avançadas só estão disponíveis via Terminal.
@@ -21,22 +21,23 @@ No Ubuntu (e outras distribuições Linux), o terminal é uma ferramenta poderos
 4. **Acesso Remoto**
    - O Terminal é essencial para a administração remota de servidores e sistemas. Utilizando ferramentas como o **SSH** (Secure Shell), é possível gerenciar máquinas Linux em qualquer parte do mundo diretamente do seu terminal local, sem a necessidade de uma interface gráfica. Essa característica é amplamente utilizada em servidores de produção e infraestrutura de TI.
 
-#### Exemplos de Comandos Comuns no Terminal
+### Exemplos de Comandos Comuns no Terminal
 - **Navegação**: `cd` (mudar de diretório), `ls` (listar arquivos), `pwd` (exibir o diretório atual)
 - **Gerenciamento de arquivos**: `cp` (copiar arquivos), `mv` (mover/renomear), `rm` (remover arquivos)
 - **Pacotes e atualizações**: `apt update` (atualizar lista de pacotes), `apt install` (instalar programas)
 - **Processos e serviços**: `ps` (listar processos), `kill` (encerrar processos), `systemctl` (gerenciar serviços)
 
-#### Conclusão
+### Conclusão
 O Terminal é uma ferramenta essencial no Linux, proporcionando mais controle, flexibilidade e eficiência para os usuários. Embora inicialmente possa parecer intimidador, aprender a usá-lo oferece uma compreensão mais profunda do sistema e permite realizar tarefas que muitas vezes não são possíveis através da interface gráfica. No Linux, dominar o Terminal é um passo fundamental para se tornar um usuário avançado.
 
 
+---
 
-### A estrutura básica de um comando Linux
+## A estrutura básica de um comando Linux
 
 No Linux, os comandos seguem uma estrutura simples, mas poderosa, que consiste em três partes principais: **comando**, **opções (ou flags)** e **argumentos**. Compreender essa estrutura é essencial para utilizar o Terminal de forma eficiente.
 
-#### Estrutura Geral:
+### Estrutura Geral:
 ```
 comando [opções] [argumentos]
 ```
@@ -49,16 +50,16 @@ comando [opções] [argumentos]
    
 3. **Argumentos**: Os argumentos indicam sobre o que o comando deve atuar, como arquivos, diretórios ou outros elementos do sistema. Por exemplo, em um comando de cópia (`cp`), os argumentos são os arquivos de origem e destino.
 
-#### Exemplos de Comandos e Sua Estrutura
+### Exemplos de Comandos e Sua Estrutura
 
-##### 1. **Comando simples**
+#### 1. **Comando simples**
 - **Comando**: `ls`
   - Este comando, sozinho, lista o conteúdo do diretório atual.
   ```
   ls
   ```
 
-##### 2. **Comando com opções**
+#### 2. **Comando com opções**
 - **Comando**: `ls`
 - **Opção**: `-l`
   - O `-l` faz o comando `ls` listar os arquivos e diretórios em formato detalhado, incluindo permissões, proprietário, tamanho, data e hora da última modificação.
@@ -66,7 +67,7 @@ comando [opções] [argumentos]
   ls -l
   ```
 
-##### 3. **Comando com argumento**
+#### 3. **Comando com argumento**
 - **Comando**: `ls`
 - **Argumento**: `/home/usuario`
   - Aqui, o comando `ls` lista os arquivos dentro do diretório `/home/usuario` em vez do diretório atual.
@@ -74,7 +75,7 @@ comando [opções] [argumentos]
   ls /home/usuario
   ```
 
-##### 4. **Comando com opções e argumento**
+#### 4. **Comando com opções e argumento**
 - **Comando**: `cp`
 - **Opção**: `-r`
 - **Argumentos**: `meu_diretorio /home/backup`
@@ -83,7 +84,7 @@ comando [opções] [argumentos]
   cp -r meu_diretorio /home/backup
   ```
 
-##### 5. **Comando com múltiplas opções**
+#### 5. **Comando com múltiplas opções**
 - **Comando**: `ls`
 - **Opções**: `-l`, `-a`
   - Aqui, o comando `ls` está sendo usado com duas opções: `-l` (lista detalhada) e `-a` (inclui arquivos ocultos). Esse comando exibirá uma lista detalhada de todos os arquivos, incluindo aqueles que começam com um ponto (`.`), que são normalmente ocultos.
@@ -103,12 +104,12 @@ comando [opções] [argumentos]
 
 
 
-
-### Navegação no sistema de arquivos usando o terminal
+---
+## Navegação no sistema de arquivos usando o terminal
 
 No Linux, o sistema de arquivos é organizado em uma hierarquia de diretórios, onde tudo começa a partir do diretório raiz `/`. Para interagir com o sistema de arquivos através do Terminal, você utiliza comandos específicos que permitem navegar, listar e verificar em que parte do sistema de arquivos você está. Os três comandos mais comuns usados para navegação são: **cd**, **ls** e **pwd**.
 
-#### 1. **Comando `cd` (Change Directory)**
+### 1. **Comando `cd` (Change Directory)**
 
 O comando `cd` é usado para **mudar de diretório** no sistema de arquivos. Ele permite que você navegue entre as pastas e subpastas do sistema. A sintaxe básica é:
 
@@ -116,7 +117,7 @@ O comando `cd` é usado para **mudar de diretório** no sistema de arquivos. Ele
 cd [diretório]
 ```
 
-##### Exemplos:
+#### Exemplos:
 - **Mudar para um diretório específico**:
   - Se você estiver no diretório `/home/usuario` e quiser ir para `/home/usuario/Documentos`, use:
     ```
@@ -145,16 +146,16 @@ cd [diretório]
     ```
   - O `..` representa o diretório pai (o diretório acima na hierarquia).
 
-#### 2. **Comando `ls` (List)**
+### 2. **Comando `ls` (List)**
 
 O comando `ls` é usado para **listar o conteúdo de um diretório**. Ele exibe os arquivos e subdiretórios dentro do diretório atual ou em um diretório especificado. O `ls` pode ser usado com várias opções para mostrar mais informações sobre os arquivos.
 
-##### Sintaxe básica:
+#### Sintaxe básica:
 ```
 ls [opções] [diretório]
 ```
 
-##### Exemplos:
+#### Exemplos:
 - **Listar arquivos no diretório atual**:
   - Simplesmente use `ls` para exibir os arquivos no diretório em que você está:
     ```
@@ -177,11 +178,11 @@ ls [opções] [diretório]
     ls -la
     ```
 
-#### 3. **Comando `pwd` (Print Working Directory)**
+### 3. **Comando `pwd` (Print Working Directory)**
 
 O comando `pwd` é usado para **mostrar o diretório atual em que você está**. Ele imprime o caminho completo, partindo do diretório raiz `/`, até o diretório onde você está naquele momento.
 
-##### Exemplo:
+#### Exemplo:
 - Para exibir o caminho completo do diretório atual:
   ```
   pwd
@@ -192,7 +193,7 @@ O comando `pwd` é usado para **mostrar o diretório atual em que você está**.
   ```
   Isso indica que você está dentro do diretório `Documentos`, que por sua vez está dentro do diretório `usuario`, que está em `/home`.
 
-#### Exemplos Práticos de Navegação
+### Exemplos Práticos de Navegação
 
 1. **Mover-se entre diretórios**:
    - Suponha que você esteja no diretório `/home/usuario` e queira navegar até `/home/usuario/Downloads`:
@@ -230,7 +231,7 @@ O comando `pwd` é usado para **mostrar o diretório atual em que você está**.
      cd /var/log
      ```
 
-#### Dicas Úteis
+### Dicas Úteis
 - **Caminhos absolutos vs. Caminhos relativos**:
   - **Caminhos absolutos** começam com `/` e indicam o caminho completo a partir do diretório raiz. Exemplo: `/home/usuario/Documentos`.
   - **Caminhos relativos** dependem do diretório atual e não começam com `/`. Exemplo: Se você estiver em `/home/usuario`, usar `cd Documentos` o levará para `/home/usuario/Documentos`.
@@ -238,7 +239,7 @@ O comando `pwd` é usado para **mostrar o diretório atual em que você está**.
 - **Autocompletar**:
   - Você pode usar a tecla `Tab` para autocompletar nomes de arquivos e diretórios, economizando tempo ao digitar.
 
-#### Conclusão
+### Conclusão
 Os comandos `cd`, `ls` e `pwd` formam a base da navegação no sistema de arquivos Linux. Eles permitem que você se mova entre diretórios, visualize o conteúdo e verifique sua localização atual de maneira eficiente. Entender como esses comandos funcionam é fundamental para trabalhar com o Terminal e acessar diferentes partes do sistema.
 
 
@@ -247,22 +248,22 @@ Os comandos `cd`, `ls` e `pwd` formam a base da navegação no sistema de arquiv
 
 
 
-### Gerenciamento de Arquivos e Pastas no Linux
+## Gerenciamento de Arquivos e Pastas no Linux
 
 No Linux, o gerenciamento de arquivos e pastas pode ser feito de maneira eficiente através do terminal, utilizando comandos específicos que permitem criar, copiar, mover, renomear, e excluir arquivos e diretórios. Esses comandos fornecem um controle total sobre o sistema de arquivos e permitem uma série de operações, muitas vezes de forma mais rápida do que a interface gráfica.
 
 A seguir, detalhamos os principais comandos utilizados para gerenciamento de arquivos e pastas no Linux:
 
-#### 1. **Comando `mkdir` (Make Directory)**
+### 1. **Comando `mkdir` (Make Directory)**
 
 O comando `mkdir` é utilizado para **criar novos diretórios** (pastas). Ele é bastante simples e pode ser usado com ou sem opções adicionais.
 
-##### Sintaxe básica:
+#### Sintaxe básica:
 ```
 mkdir [opções] nome_do_diretório
 ```
 
-##### Exemplos:
+#### Exemplos:
 - **Criar um diretório simples**:
   - Para criar um diretório chamado `projetos`, use:
     ```
@@ -276,7 +277,7 @@ mkdir [opções] nome_do_diretório
     ```
     Isso cria a estrutura `projetos`, dentro dela `2024`, e dentro de `2024`, o diretório `trabalho`.
 
-#### 2. **Comando `rmdir` e `rm` (Remove Directory/Remove)**
+### 2. **Comando `rmdir` e `rm` (Remove Directory/Remove)**
 
 - **`rmdir`**: Usado para **remover diretórios vazios**.
   - Sintaxe básica:
@@ -295,7 +296,7 @@ mkdir [opções] nome_do_diretório
     rm [opções] nome_do_arquivo_ou_diretório
     ```
 
-##### Exemplos:
+#### Exemplos:
 - **Remover um arquivo**:
   ```
   rm arquivo.txt
@@ -313,16 +314,16 @@ mkdir [opções] nome_do_diretório
     rm -rf projetos
     ```
 
-#### 3. **Comando `cp` (Copy)**
+### 3. **Comando `cp` (Copy)**
 
 O comando `cp` é utilizado para **copiar arquivos e diretórios**. Ele pode copiar arquivos simples ou diretórios inteiros, dependendo das opções usadas.
 
-##### Sintaxe básica:
+#### Sintaxe básica:
 ```
 cp [opções] origem destino
 ```
 
-##### Exemplos:
+#### Exemplos:
 - **Copiar um arquivo simples**:
   - Para copiar `arquivo.txt` para o diretório `/home/usuario/Documentos`, use:
     ```
@@ -341,16 +342,16 @@ cp [opções] origem destino
     cp -p arquivo.txt /backup/
     ```
 
-#### 4. **Comando `mv` (Move/Rename)**
+### 4. **Comando `mv` (Move/Rename)**
 
 O comando `mv` é utilizado para **mover** arquivos ou diretórios de um local para outro, ou para **renomear** arquivos e diretórios. 
 
-##### Sintaxe básica:
+#### Sintaxe básica:
 ```
 mv [opções] origem destino
 ```
 
-##### Exemplos:
+#### Exemplos:
 - **Mover um arquivo**:
   - Para mover `documento.txt` da pasta atual para `/home/usuario/Documentos/`:
     ```
@@ -369,16 +370,16 @@ mv [opções] origem destino
     mv projetos /home/usuario/Backup/
     ```
 
-#### 5. **Comando `touch`**
+### 5. **Comando `touch`**
 
 O comando `touch` é usado para **criar arquivos vazios** ou para **atualizar a data de modificação de um arquivo** já existente.
 
-##### Sintaxe básica:
+#### Sintaxe básica:
 ```
 touch nome_do_arquivo
 ```
 
-##### Exemplos:
+#### Exemplos:
 - **Criar um arquivo vazio**:
   - Para criar um arquivo chamado `novo_arquivo.txt`:
     ```
@@ -391,16 +392,16 @@ touch nome_do_arquivo
     touch arquivo.txt
     ```
 
-#### 6. **Comando `chmod` (Change Mode)**
+### 6. **Comando `chmod` (Change Mode)**
 
 O comando `chmod` é usado para **alterar as permissões de arquivos e diretórios**. No Linux, arquivos e pastas têm permissões definidas para o dono, grupo e outros, permitindo ou negando leitura, escrita e execução.
 
-##### Sintaxe básica:
+#### Sintaxe básica:
 ```
 chmod [opções] permissões arquivo_ou_diretório
 ```
 
-##### Exemplos:
+#### Exemplos:
 - **Dar permissão de execução a um arquivo**:
   - Para permitir que o arquivo `script.sh` seja executado:
     ```
@@ -413,16 +414,16 @@ chmod [opções] permissões arquivo_ou_diretório
     chmod 644 arquivo.txt
     ```
 
-#### 7. **Comando `chown` (Change Owner)**
+### 7. **Comando `chown` (Change Owner)**
 
 O comando `chown` é utilizado para **alterar o proprietário** e/ou o grupo de um arquivo ou diretório.
 
-##### Sintaxe básica:
+#### Sintaxe básica:
 ```
 chown [opções] dono:grupo arquivo_ou_diretório
 ```
 
-##### Exemplo:
+#### Exemplo:
 - **Alterar o proprietário de um arquivo**:
   - Para mudar o dono do arquivo `relatorio.txt` para o usuário `joao`:
     ```
@@ -435,16 +436,16 @@ chown [opções] dono:grupo arquivo_ou_diretório
     chown joao:admin relatorio.txt
     ```
 
-#### 8. **Comando `find`**
+### 8. **Comando `find`**
 
 O comando `find` é utilizado para **procurar arquivos e diretórios** no sistema de arquivos, com base em diversos critérios como nome, tamanho, data de modificação, etc.
 
-##### Sintaxe básica:
+#### Sintaxe básica:
 ```
 find [caminho] [opções] [critérios]
 ```
 
-##### Exemplos:
+#### Exemplos:
 - **Procurar arquivos por nome**:
   - Para encontrar todos os arquivos chamados `relatorio.txt` no diretório `/home`:
     ```
@@ -456,7 +457,7 @@ find [caminho] [opções] [critérios]
     find /home/usuario -mtime -7
     ```
 
-#### Conclusão
+### Conclusão
 
 O gerenciamento de arquivos e pastas no Linux usando o terminal proporciona flexibilidade e controle total sobre o sistema. Com esses comandos, você pode realizar tarefas complexas de forma rápida e eficiente, automatizar processos e manipular grandes volumes de arquivos com facilidade. Aprender esses comandos básicos é fundamental para qualquer usuário que deseja se aprofundar no uso do Linux.
 
@@ -466,53 +467,53 @@ O gerenciamento de arquivos e pastas no Linux usando o terminal proporciona flex
 
 
 
-### Comandos úteis do Linux
+## Comandos úteis do Linux
 
 O Linux oferece uma vasta gama de comandos que permitem aos usuários realizar diversas tarefas, desde operações básicas de sistema até o gerenciamento avançado de arquivos, processos e redes. Esses comandos são executados diretamente no **Terminal** e fornecem uma maneira poderosa de controlar e administrar o sistema. Abaixo estão alguns dos comandos mais úteis e comuns no dia a dia de um usuário Linux.
 
-#### 1. **Comando `man` (Manual)**
+### 1. **Comando `man` (Manual)**
 O comando `man` exibe o manual de um comando, oferecendo informações detalhadas sobre como ele funciona, suas opções e argumentos disponíveis.
 
-##### Sintaxe:
+#### Sintaxe:
 ```
 man [comando]
 ```
 
-##### Exemplo:
+#### Exemplo:
 - Para visualizar o manual do comando `ls`:
   ```
   man ls
   ```
 
-#### 2. **Comando `cat`, `more`, e `less` (Visualização de Arquivos)**
+### 2. **Comando `cat`, `more`, e `less` (Visualização de Arquivos)**
 Esses comandos são usados para visualizar o conteúdo de arquivos de texto diretamente no terminal.
 
 - **`cat`**: Exibe o conteúdo de um arquivo.
 - **`more`**: Exibe o conteúdo de um arquivo página por página.
 - **`less`**: Semelhante ao `more`, mas com mais funcionalidades, como rolagem para cima e para baixo.
 
-##### Sintaxe:
+#### Sintaxe:
 ```
 cat [arquivo]
 more [arquivo]
 less [arquivo]
 ```
 
-##### Exemplo:
+#### Exemplo:
 - Para visualizar o conteúdo do arquivo `texto.txt`:
   ```
   cat texto.txt
   ```
 
-#### 3. **Comando `grep` (Busca de Padrões)**
+### 3. **Comando `grep` (Busca de Padrões)**
 O comando `grep` é usado para procurar palavras ou padrões em arquivos ou na saída de outros comandos. Ele é extremamente útil para localizar informações em grandes quantidades de texto.
 
-##### Sintaxe:
+#### Sintaxe:
 ```
 grep [opções] padrão [arquivo]
 ```
 
-##### Exemplo:
+#### Exemplo:
 - Para buscar a palavra "erro" em um arquivo de log:
   ```
   grep "erro" /var/log/syslog
@@ -523,7 +524,7 @@ grep [opções] padrão [arquivo]
   journalctl -f -n besser-core | grep erro
   ```  
 
-#### 4. **Comando `ps` e `top` (Gerenciamento de Processos)**
+### 4. **Comando `ps` e `top` (Gerenciamento de Processos)**
 Estes comandos são usados para monitorar e gerenciar processos em execução no sistema.
 
 - **`ps`**: Exibe uma lista de processos em execução.
@@ -531,59 +532,59 @@ Estes comandos são usados para monitorar e gerenciar processos em execução no
 - **`htop`**: Ferramenta dos processos mais avançada
 - **`btop`**: Umas das ultimas versões, com muito mais recursos visuais.
 
-##### Sintaxe:
+#### Sintaxe:
 ```
 ps [opções]
 top
 ```
 
-##### Exemplo:
+#### Exemplo:
 - Para exibir todos os processos em execução no sistema:
   ```
   ps aux
   ```
 
-#### 5. **Comando `kill` (Encerrar Processos)**
+### 5. **Comando `kill` (Encerrar Processos)**
 O comando `kill` é usado para **encerrar processos** com base no número de identificação do processo (PID).
 
-##### Sintaxe:
+#### Sintaxe:
 ```
 kill [PID]
 ```
 
-##### Exemplo:
+#### Exemplo:
 - Para encerrar um processo com o PID 1234:
   ```
   kill 1234
   ```
 
-#### 6. **Comando `df` (DiskFree) e `du` (DiskUtils) - Informações de Disco**
+### 6. **Comando `df` (DiskFree) e `du` (DiskUtils) - Informações de Disco**
 Esses comandos ajudam a **monitorar o uso do disco** no sistema.
 
 - **`df`**: Exibe informações sobre o espaço disponível em todas as partições do sistema.
 - **`du`**: Exibe o uso de espaço de arquivos e diretórios.
 
-##### Sintaxe:
+#### Sintaxe:
 ```
 df [opções]
 du [opções] [arquivo ou diretório]
 ```
 
-##### Exemplo:
+#### Exemplo:
 - Para ver o espaço disponível em todas as partições:
   ```
   df -h
   ```
 
-#### 7. **Comando `apt` (Gerenciamento de Pacotes)**
+### 7. **Comando `apt` (Gerenciamento de Pacotes)**
 No Ubuntu (e outras distribuições baseadas em Debian), o `apt` é o principal comando para **gerenciar pacotes de software**. Com ele, você pode instalar, remover e atualizar pacotes de software.
 
-##### Sintaxe:
+#### Sintaxe:
 ```
 apt [opção] [pacote]
 ```
 
-##### Exemplos:
+#### Exemplos:
 - Para atualizar a lista de pacotes disponíveis:
   ```
   sudo apt update
@@ -593,29 +594,29 @@ apt [opção] [pacote]
   sudo apt install curl
   ```
 
-#### 8. **Comando `ssh` (Acesso Remoto)**
+### 8. **Comando `ssh` (Acesso Remoto)**
 O `ssh` (Secure Shell) permite acessar e controlar outro computador remotamente através de uma conexão segura.
 
-##### Sintaxe:
+#### Sintaxe:
 ```
 ssh [usuário]@[endereço_IP]
 ```
 
-##### Exemplo:
+#### Exemplo:
 - Para acessar remotamente um servidor com IP `192.168.1.10`:
   ```
   ssh usuario@192.168.1.10
   ```
 
-#### 9. **Comando `tar` (Compactação e Descompactação de Arquivos)**
+### 9. **Comando `tar` (Compactação e Descompactação de Arquivos)**
 O `tar` é um comando utilizado para **arquivar** (compactar) e **desarquivar** arquivos e diretórios. Ele é muito comum para criar backups e compartilhar grandes quantidades de arquivos.
 
-##### Sintaxe:
+#### Sintaxe:
 ```
 tar [opções] [arquivo]
 ```
 
-##### Exemplos:
+#### Exemplos:
 - Para compactar um diretório chamado `projetos` em um arquivo `.tar.gz`:
   ```
   tar -czvf projetos.tar.gz projetos/
@@ -626,21 +627,21 @@ tar [opções] [arquivo]
   tar -xzvf projetos.tar.gz
   ```
 
-#### 10. **Comando `history` (Histórico de Comandos)**
+### 10. **Comando `history` (Histórico de Comandos)**
 O comando `history` exibe uma lista de comandos executados anteriormente no terminal.
 
-##### Sintaxe:
+#### Sintaxe:
 ```
 history
 ```
 
-##### Exemplo:
+#### Exemplo:
 - Para visualizar os últimos 10 comandos executados:
   ```
   history | tail -n 10
   ```
 
-##### 11. Conclusão
+#### 11. Conclusão
 
 Estes são alguns dos comandos mais úteis no Linux, essenciais para o gerenciamento diário do sistema e automação de tarefas. Cada comando oferece uma série de opções que podem ser ajustadas conforme necessário, tornando-os altamente flexíveis e poderosos. Para se tornar um usuário eficiente no Linux, dominar esses comandos é um passo fundamental.
 
