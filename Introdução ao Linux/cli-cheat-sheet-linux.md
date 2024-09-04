@@ -87,13 +87,13 @@
   - `2` – write (`w`)
   - `1` – execute (`x`)
   - Onde o número do grupo significa:
-    - `7` = `rwx`
-    - `6` = `rw-`
-    - `5` = `r-x`
-    - `4` = `r--`
-    - `3` = `-wx`
-    - `2` = `-w-`
-    - `1` = `--x`
+    - `7` = `rwx` = (4+2+1)
+    - `6` = `rw-` = (4+2)
+    - `5` = `r-x` = (4+1)
+    - `4` = `r--` = (4)
+    - `3` = `-wx` = (2+1)
+    - `2` = `-w-` = (2)
+    - `1` = `--x` = (1)
   - E o conjunto gera:
   - `-rwxr--r--  ` : Conjunto sendo:
   - `|    |  +--> [r--]`: Outros usuários têm permissão apenas de leitura.
