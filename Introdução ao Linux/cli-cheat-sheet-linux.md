@@ -95,10 +95,10 @@
     - `2` = `-w-` = (2)
     - `1` = `--x` = (1)
   - E o conjunto gera:
-  - `-rwxr--r--  ` : Conjunto sendo:
-  - `|    |  +--> [r--]`: Outros usuários têm permissão apenas de leitura.
-  - `|    +-----> [rw-]`: O grupo tem permissão apenas de leitura e escrita.
-  - `+----------> [-]`: Arquivo regular. `[d]` diretório. `[l]` link simbólico`
+    - `-rwxr--r--  ` : Conjunto sendo:
+    - `|    |  +--> [r--]`: Outros usuários têm permissão apenas de leitura.
+    - `|    +-----> [rw-]`: O grupo tem permissão apenas de leitura e escrita.
+    - `+----------> [-]`: Arquivo regular. `[d]` diretório. `[l]` link simbólico`
 
 - Examples:
   - `chmod 777` – read, write, execute for all
