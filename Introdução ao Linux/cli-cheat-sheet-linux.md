@@ -197,10 +197,6 @@
 - **`sudo ufw deny <porta/serviço>`** : Nega tráfego em uma porta ou serviço específico.
 - **`sudo ufw delete allow/deny <porta/serviço>`** : Exclui uma regra existente.
 
-### SSH e acesso remoto
-- **`ssh <usuário@host>`** : Conecta-se a um host remoto via SSH.
-- **`scp <origem> <usuário@host>:<destino>`** : Copia arquivos com segurança entre hosts
-
 ### Comandos extras
 - **`ping <host>`**: ping host and output results
 - **`whois <domain>`**: get whois information for domain
