@@ -91,9 +91,9 @@
   - E o conjunto gera:
     - `-rwxrw-r-- ` : Conjunto sendo separado conforme:
       - `[-][rwx][rw-][r--]`, sendo os conjuntos representantando:
-      - ` |   |    |    +--> [r--]`: Outros usuários têm permissão apenas de leitura.
-      - ` |   |    +-------> [rw-]`: O grupo tem permissão apenas de leitura e escrita.
-      - ` |   +------------> [rw-]`: O usuário (proprietário) tem permissão completa `[rwx]`
+      - ` |   |    |    +--> [r--]`: Permissão do arquivos para os outros usuários, no exemplo têm permissão apenas de leitura.
+      - ` |   |    +-------> [rw-]`: Permissão do mesmo grupo de usuários, no exemplo tem permissão de leitura e escrita.
+      - ` |   +------------> [rwx]`: Permissão para o usuário corrente (proprietário), no exemplo tem permissão completa, leitura, gravação e execução.
       - ` +----------------> [-]`: Primeira posição indica o tipo de arquivo, sendo: `[-]` Arquivo regular. `[d]` diretório. `[l]` link simbólico.
 
 - Examples:
