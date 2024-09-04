@@ -86,6 +86,20 @@
   - `4` – read (`r`)
   - `2` – write (`w`)
   - `1` – execute (`x`)
+  - Onde o número do grupo significa:
+    - `7` = `rwx`
+    - `6` = `rw-`
+    - `5` = `r-x`
+    - `4` = `r--`
+    - `3` = `-wx`
+    - `2` = `-w-`
+    - `1` = `--x`
+  - E o conjunto gera:
+  - `-rwxr--r--  ` : Conjunto sendo:
+  - `|    |  +--> [r--]`: Outros usuários têm permissão apenas de leitura.
+  - `|    +-----> [rw-]`: O grupo tem permissão apenas de leitura e escrita.
+  - `+----------> [-]`: Arquivo regular. `[d]` diretório. `[l]` link simbólico`
+
 - Examples:
   - `chmod 777` – read, write, execute for all
   - `chmod 755` – `rwx` for owner, `rx` for group and world
