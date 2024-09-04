@@ -34,13 +34,6 @@
 - **`free -m`** : Exibe memória livre e usada em MB.
 - **`kill <id do processo>`** : Encerra um processo.
 
-### Monitoramento e gerenciamento do sistema
-- **`top`** : Exibe processos do sistema em tempo real.
-- **`htop`** : Um visualizador de processo interativo (precisa de instalação).
-- **`df -h`** : Mostra o uso do disco em um formato legível por humanos.
-- **`free -m`** : Exibe a memória livre e usada em MB.
-- **`kill <id do processo>`** : Encerra um processo.
-
 ### Executando comandos
 - **`[comando] &`** : Executa o comando em segundo plano.
 - **`jobs`** : Exibe os comandos em segundo plano.
