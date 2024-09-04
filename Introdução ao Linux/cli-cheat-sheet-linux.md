@@ -106,6 +106,8 @@
 ### Arquivamento e compactação
 - **`tar -czvf <nome.tar.gz> [arquivos]`** : Compacta arquivos em um arquivo tar.gz.
 - **`tar -xvf <nome.tar.[gz|bz|xz]> [destino]`** : Extrai um arquivo tar compactado.
+- **`7z a <novo_arquivo_compactado>.7z <nome_arquivo_a_compactar,nome_arquivo_a_compactar>`** : Compacta em 7z
+- **`7z x <novo_arquivo_compactado>.7z`** : Descompacta o arquivo 7z
 
 ### Edição e processamento de texto
 - **`nano [arquivo]`** : Abre um arquivo no editor de texto Nano.
