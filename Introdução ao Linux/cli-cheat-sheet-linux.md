@@ -35,7 +35,7 @@
 - **`free -m`** : Exibe memória livre e usada em MB.
 - **`kill <id do processo>`** : Encerra um processo.
 
-### Executando comandos
+### Executando comandos em segundo plano
 - **`[comando] &`** : Executa o comando em segundo plano.
 - **`jobs`** : Exibe os comandos em segundo plano.
 - **`fg <número do comando>`** : Traz o comando para o primeiro plano.
