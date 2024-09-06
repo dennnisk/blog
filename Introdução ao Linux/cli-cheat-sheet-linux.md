@@ -88,6 +88,7 @@
     - `3` = `-wx` = (2+1)
     - `2` = `-w-` = (2)
     - `1` = `--x` = (1)
+    - `0` = `---` = (0)
   - E o conjunto gera:
     - ` -rwxrw-r-- ` : Conjunto sendo separado conforme:
       - ```
