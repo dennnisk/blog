@@ -50,6 +50,17 @@ magick -debug command file.pdf -define jpeg:size=48x48 -background #FFFFFF -flat
 **How to use/Install**: https://github.com/megastep/makeself?tab=readme-ov-file#usage
 
 
+## `Burp Suite` - Traffic Interception and Manipulation
+
+**Description**: *Traffic Interception and Manipulation: Burp Suite acts as a web proxy that allows you to intercept and modify HTTP/HTTPS requests and responses between the client and the server. This makes it easier to identify vulnerabilities and understand network traffic.*
+
+**Project**: https://portswigger.net/burp/communitydownload
+
+**How to use/Install**: . . . 
+
+
+
+
 
 # GIT
 
