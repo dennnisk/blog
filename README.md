@@ -160,4 +160,14 @@ If you get the error: "Component ‘MSCOMCTL.OCX’ or one if its dependencies n
 **How to use/Install**: https://ddclient.net/
 
 
+## Develop
+
+### `Quarkus` - SUPERSONIC/ SUBATOMIC/ JAVA
+
+**Description**: *A Kubernetes Native Java stack tailored for OpenJDK HotSpot and GraalVM, crafted from the best of breed Java libraries and standards.*
+
+**Project**: https://quarkus.io/
+
+**How to use/Install**: https://code.quarkus.io/
+
 
