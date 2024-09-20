@@ -59,6 +59,13 @@ magick -debug command file.pdf -define jpeg:size=48x48 -background #FFFFFF -flat
 **How to use/Install**: . . . 
 
 
+## `Tesseract OCR` - Tesseract Open Source OCR Engine
+
+**Description**: *Tesseract is tool to recognizing character patterns (OCR). 4 version use new neural net (LSTM) based OCR engine which is focused on line recognition, but also still supports the legacy Tesseract OCR engine of Tesseract 3 which works by recognizing character patterns.*
+
+**Project**: https://github.com/tesseract-ocr/tesseract
+
+**How to use/Install**: https://github.com/tesseract-ocr/tesseract?tab=readme-ov-file#running-tesseract
 
 
 
