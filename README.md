@@ -68,6 +68,16 @@ magick -debug command file.pdf -define jpeg:size=48x48 -background #FFFFFF -flat
 **How to use/Install**: https://github.com/tesseract-ocr/tesseract?tab=readme-ov-file#running-tesseract
 
 
+## `Whisper` -Whishper is an open-source, 100% local audio transcription
+
+**Description**: *Whisper is a general-purpose speech recognition model. It is trained on a large dataset of diverse audio and is also a multitasking model that can perform multilingual speech recognition, speech translation, and language identification.*
+
+**Project**: https://github.com/openai/whisper  <-- Command Line Utility
+**Project**: https://github.com/pluja/whishper  <-- Same, but with WebUI
+
+**How to use/Install**: https://github.com/openai/whisper?tab=readme-ov-file#command-line-usage
+
+
 
 # GIT
 
