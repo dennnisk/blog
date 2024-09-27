@@ -188,3 +188,12 @@ If you get the error: "Component ‘MSCOMCTL.OCX’ or one if its dependencies n
 **How to use/Install**: https://code.quarkus.io/
 
 
+## `excalidraw` - WebApp tool for drawing something... Maybe to explain it to someone...
+
+**Description**: *Site that you can draw something, and save on yout browser database*
+
+**Project**: https://github.com/excalidraw/excalidraw-blog
+
+**How to use/Install**: https://excalidraw.com/
+
+
