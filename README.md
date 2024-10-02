@@ -208,3 +208,15 @@ If you get the error: "Component ‘MSCOMCTL.OCX’ or one if its dependencies n
 **Project**: https://github.com/mathuo/dockview
 
 **How to use/Install**: https://dockview.dev/
+
+
+### `LMDeploy` - LMDeploy is a toolkit for compressing, deploying, and serving LLMs..
+
+**Description**: *LMDeploy is a toolkit for compressing, deploying, and serving LLM, developed by the MMRazor and MMDeploy teams.*
+
+**Project**: https://github.com/InternLM/lmdeploy
+
+**How to use/Install**: https://github.com/InternLM/lmdeploy | https://www.youtube.com/watch?v=bsCImqUjQ74
+
+ 
+
