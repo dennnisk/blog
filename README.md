@@ -200,3 +200,11 @@ If you get the error: "Component ‘MSCOMCTL.OCX’ or one if its dependencies n
 
 **How to use/Install**: https://code.quarkus.io/
 
+
+### `dockview` - Zero dependency layout manager supporting tabs, groups, grids and splitviews.
+
+**Description**: *dockview - Zero dependency layout manager supporting tabs, groups, grids and splitviews. Supports React, Vue and Vanilla TypeScript*
+
+**Project**: https://github.com/mathuo/dockview
+
+**How to use/Install**: https://dockview.dev/
