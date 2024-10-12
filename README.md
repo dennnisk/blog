@@ -78,7 +78,7 @@ magick -debug command file.pdf -define jpeg:size=48x48 -background #FFFFFF -flat
 **How to use/Install**: https://github.com/openai/whisper?tab=readme-ov-file#command-line-usage
 
 
-
+# ##################################################################
 # GIT
 
 ## `gitbutler` - Git client created by github creator
@@ -98,6 +98,8 @@ magick -debug command file.pdf -define jpeg:size=48x48 -background #FFFFFF -flat
 ![gittyup image](https://raw.githubusercontent.com/Murmele/Gittyup/master/rsrc/screenshots/main_dark_orig.png?raw=true)
 
 
+
+# ##################################################################
 # Host/Do yourself
 
 ## Softwares
@@ -219,4 +221,17 @@ If you get the error: "Component ‘MSCOMCTL.OCX’ or one if its dependencies n
 **How to use/Install**: https://github.com/InternLM/lmdeploy | https://www.youtube.com/watch?v=bsCImqUjQ74
 
  
+
+
+# ##################################################################
+
+# Games
+
+### `WiiUDownloader` - WiiUDownloader is a Golang program that allows you to download Wii U games from Nintendo's servers
+
+**Description**: *WiiUDownloader is a Golang program that allows you to download Wii U games from Nintendo's servers*
+
+**Project**: https://github.com/Xpl0itU/WiiUDownloader
+
+**How to use/Install**: https://github.com/Xpl0itU/WiiUDownloader
 
