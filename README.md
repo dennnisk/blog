@@ -220,6 +220,20 @@ If you get the error: "Component ‘MSCOMCTL.OCX’ or one if its dependencies n
 
 **How to use/Install**: https://github.com/InternLM/lmdeploy | https://www.youtube.com/watch?v=bsCImqUjQ74
 
+
+
+
+### `Puppeteer` - Puppeteer is a JavaScript library which provides a high-level API to control Chrome or Firefox over the DevTools Protocol or WebDriver BiDi.
+
+**Description**: *Webscrapping, Automate form submission, UI testing, keyboard input, etc., Create an automated testing environment using the latest JavaScript and browser features., Capture a timeline trace of your site to help diagnose performance issues.*
+
+**Project**: https://pptr.dev/
+
+**How to use/Install**: https://pptr.dev/guides/getting-started
+
+
+
+
  
 
 
