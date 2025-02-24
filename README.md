@@ -158,6 +158,8 @@ Also, the changes MP3Gain makes are completely lossless. There is no quality los
 If you get the error: "Component ‘MSCOMCTL.OCX’ or one if its dependencies not correctly registered: a file is missing or invalid.", try this: https://www.urtech.ca/2017/11/solved-mscomctl-ocx-download-register-64-bit-windows/
 ```
 
+
+
 ## Services
 
 ### `Duck DNS` - Free dynamic DNS hosted on AWS
@@ -169,7 +171,6 @@ If you get the error: "Component ‘MSCOMCTL.OCX’ or one if its dependencies n
 **How to use/Install**: https://www.duckdns.org/domains
 
 
-
 ### `ddclient` - Updates dynamic DNS entries
 
 **Description**: *ddclient updates dynamic DNS entries for accounts on a wide range of dynamic DNS services.*
@@ -179,8 +180,6 @@ If you get the error: "Component ‘MSCOMCTL.OCX’ or one if its dependencies n
 **How to use/Install**: https://ddclient.net/
 
 
-
-
 ### `excalidraw` - WebApp tool for drawing something... Maybe to explain it to someone...
 
 **Description**: *Site that you can draw something, and save on yout browser database*
@@ -188,6 +187,18 @@ If you get the error: "Component ‘MSCOMCTL.OCX’ or one if its dependencies n
 **Project**: https://github.com/excalidraw/excalidraw-blog
 
 **How to use/Install**: https://excalidraw.com/
+
+
+### `spotube` - An open source for Spotify's, YouTube, Piped.video or JioSaavn as an audio source.
+
+**Description**: *An open source, cross-platform Spotify client compatible across multiple platforms utilizing Spotify's data API and YouTube, Piped.video or JioSaavn as an audio source eliminating the need for Spotify Premium*
+
+**Project**: https://github.com/KRTirtho/spotube?referrer=spotube.krtirtho.dev
+
+**How to use/Install**: https://github.com/KRTirtho/spotube?referrer=spotube.krtirtho.dev
+
+
+
 
 
 
@@ -233,14 +244,6 @@ If you get the error: "Component ‘MSCOMCTL.OCX’ or one if its dependencies n
 
 
 
-
-### `spotube` - An open source for Spotify's, YouTube, Piped.video or JioSaavn as an audio source.
-
-**Description**: *An open source, cross-platform Spotify client compatible across multiple platforms utilizing Spotify's data API and YouTube, Piped.video or JioSaavn as an audio source eliminating the need for Spotify Premium*
-
-**Project**: https://github.com/KRTirtho/spotube?referrer=spotube.krtirtho.dev
-
-**How to use/Install**: https://github.com/KRTirtho/spotube?referrer=spotube.krtirtho.dev
 
 
 
