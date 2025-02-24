@@ -234,6 +234,18 @@ If you get the error: "Component ‘MSCOMCTL.OCX’ or one if its dependencies n
 
 
 
+### `spotube` - An open source for Spotify's, YouTube, Piped.video or JioSaavn as an audio source.
+
+**Description**: *An open source, cross-platform Spotify client compatible across multiple platforms utilizing Spotify's data API and YouTube, Piped.video or JioSaavn as an audio source eliminating the need for Spotify Premium*
+
+**Project**: https://github.com/KRTirtho/spotube?referrer=spotube.krtirtho.dev
+
+**How to use/Install**: https://github.com/KRTirtho/spotube?referrer=spotube.krtirtho.dev
+
+
+
+
+
  
 
 
