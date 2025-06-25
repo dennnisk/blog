@@ -63,6 +63,7 @@
 - **`cp <origem> <destino>`** : Copia arquivos da origem para o destino.
 - **`mv <origem> <destino>`** : Move arquivos ou os renomeia.
 - **`rm <nome do arquivo>`** : Exclui um arquivo.
+- **`lsof +D /<DIR>`** : Mostra os processos e arquivos em uso de um determinado diretório
 
 
 ### Navegação de diretório
