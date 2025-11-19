@@ -145,6 +145,22 @@ docker run -d -p 8000:8000 -p 9443:9443 --name portainer --restart=always -v /va
  - Access the directory and you can download and convert, like the example 
 
 
+
+### `yt-dlp` - yt-dlp -yt-dlp is a feature-rich command-line audio/video downloader with support for thousands of sites. The project is a fork of youtube-dl based on the now inactive youtube-dlc.
+
+**Description**: *download videos from youtube.com or other video platforms. Include playlist from music.youtube.com and convert it to mp3*
+
+**Project**: https://github.com/ytdl-org/youtube-dl
+
+**How to use/Install**: https://github.com/ytdl-org/youtube-dl
+
+```bash
+.\yt-dlp.exe -x --audio-format mp3 URL https://music.youtube.com/playlist?list=PLvgcQr40gKCCCCXXXXXGyKn35BYm
+```
+#### How to Install
+ - github project gide 
+
+
 ### `MP3Gain` - MP3Gain analyzes and adjusts mp3 files so that they have the same volume.
 
 **Description**: *MP3Gain does not just do peak normalization, as many normalizers do. Instead, it does some statistical analysis to determine how loud the file actually sounds to the human ear.
