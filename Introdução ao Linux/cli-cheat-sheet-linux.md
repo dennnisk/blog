@@ -59,11 +59,15 @@
 
 ### Gerenciamento de arquivos
 - **`ls`** : Lista arquivos e diretórios.
+  - **`ls -lha`** : Lista arquivos e diretórios por linha, com formato de dados Humam Redabled.
+  - **`ls -lhatr`** : Lista arquivos e diretórios por linha, ordenados por data
 - **`touch <nome do arquivo>`** : Cria um arquivo vazio ou atualiza a data do último acesso.
 - **`cp <origem> <destino>`** : Copia arquivos da origem para o destino.
 - **`mv <origem> <destino>`** : Move arquivos ou os renomeia.
 - **`rm <nome do arquivo>`** : Exclui um arquivo.
 - **`lsof +D /<DIR>`** : Mostra os processos e arquivos em uso de um determinado diretório
+- **`find /path/subpath -type f -mtime +30 -delete`** : Filtra e apaga os arquivos de um diretório que são menores que determinada data
+  - Recomendado testar antes com: **`find /path/subpath -type f -mtime +30`**
 
 
 ### Navegação de diretório
