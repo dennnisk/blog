@@ -39,6 +39,15 @@
 - **`[comando] &`** : Executa o comando em segundo plano.
 - **`jobs`** : Exibe os comandos em segundo plano.
 - **`fg <número do comando>`** : Traz o comando para o primeiro plano.
+- **`tmux`** : Tmux - Mantendo sessões ativas
+  * `sudo apt install tmux` : Instala o tmux.
+  * `tmux` : Inicia uma nova sessão.
+  * `tmux new -s <nome>` : Cria uma nova sessão com um nome.
+  * `Ctrl+B` seguido de `D` : Desconecta da sessão sem encerrar os processos.
+  * `tmux ls` : Lista as sessões disponíveis.
+  * `tmux attach` : Retorna para a última sessão.
+  * `tmux attach -t <nome>` : Retorna para uma sessão específica.
+  * `exit` : Encerra a sessão atual do tmux.
 
 ### Gerenciamento de serviços
 - **`sudo systemctl start <service>`** : Inicia um serviço.
