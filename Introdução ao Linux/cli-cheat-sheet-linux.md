@@ -71,6 +71,8 @@
   - **`ls -lha`** : Lista arquivos e diretórios por linha, com formato de dados Humam Redabled.
   - **`ls -lhatr`** : Lista arquivos e diretórios por linha, ordenados por data
 - **`touch <nome do arquivo>`** : Cria um arquivo vazio ou atualiza a data do último acesso.
+  - **`rsync -ah --info=progress2 /origem/nomearquivo.xxx /destino/.`**: Copia o arquivo exibindo uma barra de progresso, útil para grandes arquivos: `12.45G  67%   85.32MB/s    0:01:25`
+  - **`pv arquivo_grande.iso > /destino/arquivo_grande.iso`** : Copia um arquivo único, exibindo também uma barra de progresso: `4.12GiB  58% [=======>      ]  95.3MiB/s ETA 0:18`
 - **`cp <origem> <destino>`** : Copia arquivos da origem para o destino.
 - **`mv <origem> <destino>`** : Move arquivos ou os renomeia.
 - **`rm <nome do arquivo>`** : Exclui um arquivo.
